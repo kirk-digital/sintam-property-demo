@@ -1,0 +1,469 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "locations": "Locations",
+    "propertyManagement": "Property Management",
+    "investmentConsulting": "Investment Consulting",
+    "vehicleRental": "Vehicle Rental",
+    "vehicleSourcing": "Vehicle Sourcing",
+    "about": "About us",
+    "customerPortal": "Customer Portal",
+    "contactUs": "Contact Us",
+    "privacy": "Privacy",
+    "contact": "Contact"
+  },
+  "buttons": {
+    "contactUs": "Contact us",
+    "talkToUs": "Talk to Us",
+    "requestQuote": "Request a Quote",
+    "bookNow": "Book now",
+    "search": "Search",
+    "accept": "Accept",
+    "enquire": "Enquire",
+    "login": "Login",
+    "sendMessage": "Send message",
+    "getInTouch": "Get in touch",
+    "startWorkingWithUs": "Start working with us",
+    "viewAllLocations": "View all locations",
+    "requestCustomSourcing": "Request custom sourcing",
+    "openMailClient": "Open mail client"
+  },
+  "sections": {
+    "whyWorkWithUs": "Why work with us",
+    "byTheNumbers": "By the numbers",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "areasWeCover": "Areas We Cover",
+    "expertise": "Expertise",
+    "whoWeAre": "Who we are",
+    "whatWeDo": "What we do",
+    "ourApproach": "Our approach",
+    "ourValues": "Our values",
+    "dontJustTakeOurWord": "Don't just take our word for it",
+    "seeWhatClientsSay": "See what our clients say",
+    "startTheConversation": "Start the conversation",
+    "weRespondWithinOneBusinessDay": "We respond within one business day",
+    "wantToDiscuss": "Want to discuss your needs? We'll reply within 24 hours.",
+    "measurableResults": "Measurable results that reflect our commitment to excellence"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Lisbon",
+      "title": "Property Management Specialists in Lisbon",
+      "subtitle": "Property management, investment support, and vehicle services — delivered with clarity and care."
+    },
+    "subHero": {
+      "eyebrow": "Welcome to Sintam-se Abraçados",
+      "title": "Clarity, control, and measured delivery.",
+      "description": "We manage assets with discipline and transparency. From revenue assurance and maintenance control to investment sourcing and vehicle logistics, every detail is handled by a single accountable team."
+    },
+    "portal": {
+      "title": "Customer Portal",
+      "description": "Secure access to reports, statements, and live updates."
+    },
+    "bookService": {
+      "title": "Book a Service",
+      "description": "Schedule inspections, onboarding, or vehicle arrangements."
+    },
+    "trust": {
+      "peaceOfMind": "PEACE OF MIND",
+      "financialSecurity": "FINANCIAL SECURITY",
+      "complianceSorted": "COMPLIANCE SORTED",
+      "trustedPartner": "TRUSTED PARTNER"
+    },
+    "reasons": {
+      "operationalClarity": {
+        "title": "Operational clarity",
+        "text": "Tight processes, transparent updates, and clear ownership of every task."
+      },
+      "financialDiscipline": {
+        "title": "Financial discipline",
+        "text": "Rigorous controls, on-time collections, and precise reporting."
+      },
+      "lisbonExpertise": {
+        "title": "Lisbon expertise",
+        "text": "Local network of suppliers, legal partners, and vetted contractors."
+      },
+      "endToEndCoverage": {
+        "title": "End-to-end coverage",
+        "text": "From inspections to investment strategy and vehicle logistics, under one team."
+      },
+      "responsiveTeam": {
+        "title": "Responsive team",
+        "text": "Direct lines to decision-makers. We move without delay."
+      },
+      "riskManagement": {
+        "title": "Risk management",
+        "text": "Preventive maintenance and compliance-first workflows."
+      }
+    },
+    "stats": {
+      "responseTime": "Response time",
+      "clientRequestsHandled": "Client requests handled",
+      "lisbonNetwork": "Lisbon network",
+      "reportingUpdates": "Reporting & updates"
+    },
+    "testimonials": {
+      "testimonial1": {
+        "quote": "Concise reporting, fast action, and no surprises.",
+        "name": "Ana Ribeiro",
+        "role": "Landlord"
+      },
+      "testimonial2": {
+        "quote": "They sourced and negotiated our Lisbon investment with precision.",
+        "name": "James Turner",
+        "role": "Investor"
+      },
+      "testimonial3": {
+        "quote": "Maintenance is handled before it becomes an issue.",
+        "name": "Marta Silva",
+        "role": "Property Owner"
+      },
+      "testimonial4": {
+        "quote": "Vehicle sourcing was efficient, paperwork was clean.",
+        "name": "Luis Costa",
+        "role": "Relocation Client"
+      },
+      "testimonial5": {
+        "quote": "Clear accountability and proactive communication.",
+        "name": "Sofia Marques",
+        "role": "Portfolio Manager"
+      }
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "About",
+      "title": "Sintam-se Abraçados",
+      "subtitle": "A Lisbon-based team delivering disciplined property management, investment support, and vehicle services."
+    },
+    "whoWeAre": {
+      "text": "Sintam-se Abraçados is a Lisbon-based company providing comprehensive property management, investment consulting, and vehicle services. We operate with discipline, transparency, and a focus on measurable outcomes."
+    },
+    "whatWeDo": {
+      "propertyManagement": "Property Management:",
+      "propertyManagementText": "We manage residential and commercial properties in Lisbon and surrounding areas. Our services include rent collection, maintenance coordination, inspections, compliance oversight, and transparent reporting.",
+      "investmentConsulting": "Investment Consulting:",
+      "investmentConsultingText": "We support investors in sourcing, evaluating, and acquiring properties in Portugal. From market analysis to due diligence and negotiation, we provide structured guidance throughout the investment process.",
+      "vehicleServices": "Vehicle Services:",
+      "vehicleServicesText": "We offer vehicle rental and sourcing services, including import from Belgium to Lisbon and export to Angola. Our team handles sourcing, inspection, documentation, and logistics coordination."
+    },
+    "ourApproach": {
+      "paragraph1": "Based in Lisbon, we combine local market expertise with international standards. Our team provides multilingual support in English and Portuguese, ensuring clear communication with clients from around the world.",
+      "paragraph2": "We prioritize trust and transparency in every interaction. Our processes are designed for clarity, with regular reporting, defined SLAs, and direct access to decision-makers. We work with vetted partners and maintain rigorous quality standards across all services."
+    },
+    "values": {
+      "transparency": {
+        "title": "Transparency",
+        "text": "Straight reporting, clear decisions, and visible ownership of tasks."
+      },
+      "reliability": {
+        "title": "Reliability",
+        "text": "Predictable execution with defined SLAs and responsive communication."
+      },
+      "expertise": {
+        "title": "Expertise",
+        "text": "Local market knowledge backed by vetted partners in legal, tax, and operations."
+      },
+      "clientFocus": {
+        "title": "Client focus",
+        "text": "We align to your targets—income, protection, and asset longevity."
+      }
+    }
+  },
+  "services": {
+    "propertyManagement": {
+      "hero": {
+        "eyebrow": "Services · Property Management",
+        "title": "Property management for Lisbon assets",
+        "subtitle": "Disciplined oversight for income, compliance, maintenance, and residents. One accountable team managing the full lifecycle of your property."
+      },
+      "section": {
+        "eyebrow": "ESSENTIAL UPKEEP",
+        "title": "Keeping your building safe, clean, and compliant.",
+        "routineMaintenance": {
+          "title": "Routine Maintenance",
+          "text": "We keep communal areas safe, clean, and looking good. Our team handles the landscaping, lighting, cleaning, and minor repairs to maintain a safe environment for residents."
+        },
+        "plannedPreventative": {
+          "title": "Planned Preventative Maintenance (PPM)",
+          "text": "Our scheduled inspections catch issues early, keeping critical systems and communal areas in good condition."
+        },
+        "emergencyRepairs": {
+          "title": "Emergency Repairs",
+          "text": "When urgent issues arise, our emergency repair service promptly tackles leaks, electrical faults, and structural concerns to protect residents and limit property damage."
+        }
+      }
+    },
+    "investmentConsulting": {
+      "hero": {
+        "eyebrow": "Services · Investment Consulting",
+        "title": "Structured investment support in Lisbon",
+        "subtitle": "From scouting to closing, we provide disciplined support for acquisitions, aligning each stage with your return and risk profile."
+      },
+      "section": {
+        "eyebrow": "INVESTMENT CONSULTING",
+        "title": "Make confident property decisions in Portugal.",
+        "intro": "We help you assess opportunities, coordinate the process, and reduce risk throughout your property investment journey in Portugal.",
+        "strategyGuidance": {
+          "title": "Investment Strategy & Area Guidance",
+          "text": "We help you define your goals and narrow down the right areas in Lisbon and beyond based on budget, yield expectations, and long-term plans."
+        },
+        "propertySearch": {
+          "title": "Property Search & Shortlisting",
+          "text": "We source options that match your criteria, highlight trade-offs clearly, and save you time by focusing only on properties worth viewing."
+        },
+        "dueDiligence": {
+          "title": "Due Diligence & Purchase Coordination",
+          "text": "We support the process by coordinating viewings, documentation, and trusted local partners (legal/tax/finance where needed) so you can move forward with clarity."
+        },
+        "disclaimer": "Note: We do not provide legal or tax advice. We coordinate with qualified professionals where required."
+      }
+    },
+    "vehicleRental": {
+      "hero": {
+        "title": "Car Hire in Portugal.",
+        "subtitle": "Search for car hire deals in Portugal",
+        "features": {
+          "freeCancellation": "Free Cancellation",
+          "excessProtection": "Excess Protection",
+          "support24": "24/7 Support",
+          "fairFuelPolicy": "Fair Fuel Policy"
+        }
+      },
+      "rentalForm": {
+        "title": "Search for car hire",
+        "pickupLocation": "Pick-up location",
+        "pickupDate": "Pick-up date",
+        "dropoffDate": "Drop-off date",
+        "vehicleType": "Vehicle type",
+        "any": "Any",
+        "economy": "Economy",
+        "compact": "Compact",
+        "suv": "SUV",
+        "luxury": "Luxury",
+        "van": "Van",
+        "submitting": "We'll contact you shortly.",
+        "redirecting": "Redirecting to contact form..."
+      },
+      "overview": {
+        "title": "Service overview",
+        "description": "We manage the full rental lifecycle: sourcing, insurance, handover, maintenance, and support. Your team receives a ready-to-drive vehicle with minimal friction.",
+        "included": {
+          "shortLongTerm": "Short and long-term rental options",
+          "insuranceCoordination": "Insurance coordination and documentation",
+          "deliveryCollection": "Delivery and collection in greater Lisbon",
+          "maintenanceIncluded": "Maintenance and servicing included for long-term",
+          "roadsideAssistance": "Roadside assistance setup",
+          "transparentPricing": "Transparent pricing and billing"
+        },
+        "cta": {
+          "title": "Call to action",
+          "description": "Share dates, vehicle type, and delivery preferences. We will confirm availability quickly."
+        }
+      },
+      "faq": {
+        "title": "Frequently asked questions",
+        "vehiclesAvailable": {
+          "q": "What vehicles are available?",
+          "a": "We source sedans, SUVs, and vans. Specific models are confirmed during booking based on availability and your requirements."
+        },
+        "corporateRental": {
+          "q": "Can you handle corporate rental needs?",
+          "a": "Yes. We support corporate fleets, relocation packages, and project-based rentals."
+        },
+        "manageInsurance": {
+          "q": "How do you manage insurance?",
+          "a": "We arrange coverage and present options clearly, with documentation handled for you."
+        },
+        "deliveryIncluded": {
+          "q": "Is delivery included?",
+          "a": "Yes, within greater Lisbon. We coordinate timing and handover details."
+        }
+      }
+    },
+    "vehicleSourcing": {
+      "hero": {
+        "eyebrow": "Services · Vehicle Sourcing",
+        "title": "Vehicle sourcing from Belgium",
+        "subtitle": "Import to Lisbon or export to Angola. We source, inspect, and coordinate the full process."
+      },
+      "intro": {
+        "title": "Sourcing vehicles from Belgium",
+        "description": "We source vehicles from Belgian markets and coordinate import to Lisbon or export to Angola. Our process covers market scanning, vehicle inspection, negotiation, documentation, and logistics. Whether you need a single vehicle or a fleet, we handle the sourcing and shipping arrangements."
+      },
+      "howItWorks": {
+        "title": "How sourcing works",
+        "defineRequirements": {
+          "step": "1",
+          "title": "Define requirements",
+          "description": "Share your vehicle specifications, budget, and destination preferences."
+        },
+        "marketScan": {
+          "step": "2",
+          "title": "Market scan",
+          "description": "We search Belgian markets and shortlist vehicles matching your criteria."
+        },
+        "inspectionValidation": {
+          "step": "3",
+          "title": "Inspection & validation",
+          "description": "Our team inspects vehicles, verifies history, and negotiates terms."
+        },
+        "importExport": {
+          "step": "4",
+          "title": "Import or export coordination",
+          "description": "We handle documentation, shipping, and registration for Lisbon or Angola."
+        },
+        "delivery": {
+          "step": "5",
+          "title": "Delivery",
+          "description": "Vehicle arrives ready for collection or delivery to your specified location."
+        }
+      },
+      "marketplace": {
+        "title": "Available vehicles",
+        "description": "Browse vehicles currently available for sourcing from Belgium. Contact us to enquire about any listing.",
+        "filters": {
+          "searchPlaceholder": "Search make/model…",
+          "destination": "Destination",
+          "lisbonImport": "Lisbon import",
+          "angolaExport": "Angola export",
+          "budgetRange": "Budget range",
+          "under20k": "Under €20,000",
+          "20to30k": "€20,000 - €30,000",
+          "30to40k": "€30,000 - €40,000",
+          "over40k": "Over €40,000",
+          "fuelType": "Fuel type",
+          "diesel": "Diesel",
+          "petrol": "Petrol",
+          "hybrid": "Hybrid",
+          "electric": "Electric"
+        },
+        "details": {
+          "mileage": "Mileage",
+          "location": "Location",
+          "enquiryMessage": "I'm interested in the {{make}} {{model}} (ID: {{id}}). Please provide more details and availability."
+        },
+        "cta": {
+          "title": "Need a specific vehicle?",
+          "description": "Contact us with your requirements. We'll source it from Belgium and coordinate import or export."
+        }
+      }
+    }
+  },
+  "locations": {
+    "hero": {
+      "eyebrow": "Locations",
+      "title": "Where we operate",
+      "subtitle": "Lisbon at the center, with coverage across key surrounding municipalities through vetted partners and controlled processes."
+    },
+    "locationPage": {
+      "eyebrow": "Welcome to Sintam-se Abraçados",
+      "title": "Looking for professional block management services in {{location}}?",
+      "services": {
+        "propertyManagement": "Property management and maintenance",
+        "investmentConsulting": "Investment consulting and acquisitions",
+        "tenantRelations": "Tenant relations and rent collection",
+        "complianceOversight": "Compliance oversight and documentation"
+      },
+      "defaultMessage": "Hi, I'm enquiring about services in {{location}}.",
+      "descriptions": {
+        "lisbon": "As our base of operations, we provide comprehensive property management and investment services across Lisbon's central districts and surrounding neighborhoods. From historic Alfama to modern Parque das Nações, we understand the local market and regulatory landscape.",
+        "cascais": "Coastal property management and investment support in Cascais, serving the luxury residential market and long-term rental needs. We handle relocations, seasonal rentals, and property maintenance for owners in this premium coastal area.",
+        "sintra": "Heritage property management and compliance oversight in Sintra. We work with historic assets, ensuring regulatory compliance while preserving the character of properties in this UNESCO World Heritage area.",
+        "oeiras": "Corporate housing and commuter-friendly property services in Oeiras. We support relocating professionals and companies with short-term and long-term rental solutions, plus ongoing property maintenance.",
+        "almada": "Property management and investment services in Almada, expanding our coverage to the south bank of the Tagus. We work with vetted local partners to deliver the same high standards across the region."
+      }
+    },
+    "notFound": {
+      "title": "Location not found"
+    }
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Talk to us",
+      "subtitle": "We respond within one business day."
+    },
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone (optional)",
+      "service": "Service",
+      "selectService": "Select a service",
+      "message": "Message",
+      "sendMessage": "Send message",
+      "mailtoFallback": "Mailto fallback",
+      "nameRequired": "Name is required",
+      "validEmailRequired": "Valid email is required",
+      "messageRequired": "Message is required"
+    },
+    "success": {
+      "title": "Message received",
+      "message": "Thank you. We will respond within one business day. If you prefer, use the mail link below.",
+      "enquiryPrefix": "Enquiry:",
+      "nameLabel": "Name:",
+      "emailLabel": "Email:",
+      "phoneLabel": "Phone:",
+      "serviceLabel": "Service:",
+      "messageLabel": "Message:",
+      "notProvided": "Not provided",
+      "general": "General"
+    }
+  },
+  "footer": {
+    "services": "Services",
+    "locations": "Locations",
+    "company": "Company",
+    "contact": "Contact",
+    "description": "Premium property management, investment consulting, and vehicle services for discerning clients in Lisbon and surrounding regions.",
+    "copyright": "© {{year}} Sintam-se Abraçados. All rights reserved. Website designed and built by",
+    "designedBy": "Kirkdale Digital"
+  },
+  "cookie": {
+    "message": "We use cookies to enhance your browsing experience and analyze site traffic. By continuing to use this site, you consent to our use of cookies.",
+    "learnMore": "Learn more in our Privacy Policy",
+    "accept": "Accept cookies",
+    "close": "Close cookie notice"
+  },
+  "whatsapp": {
+    "ariaLabel": "Chat with us on WhatsApp",
+    "message": "Hello, I'd like to enquire about your services in Lisbon"
+  },
+  "language": {
+    "switchToEnglish": "Switch to English",
+    "switchToPortuguese": "Switch to Portuguese"
+  },
+  "common": {
+    "login": "Login",
+    "general": "General"
+  },
+  "map": {
+    "title": "Lisbon Map"
+  },
+  "vehicleRental": {
+    "carHireEnquiry": "Car Hire Enquiry:"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: January 2026",
+    "intro": "We collect information you provide through contact forms, email, or phone, including name, email, phone, and service interests. We use this to respond to enquiries, deliver services, and maintain records.",
+    "dataCollection": {
+      "title": "Data Collection",
+      "text": "We collect information you provide when contacting us, including name, email, phone number, and messages."
+    },
+    "dataUse": {
+      "title": "Data use",
+      "text": "Your data is used to communicate with you, prepare proposals, perform services, and comply with legal obligations. We do not sell your data."
+    },
+    "dataProtection": {
+      "title": "Data protection",
+      "text": "We apply reasonable technical and organisational measures to protect your information. Access is restricted to authorised personnel and trusted processors."
+    },
+    "yourRights": {
+      "title": "Your rights",
+      "text": "You may request access, correction, or deletion of your personal data. Contact info@sintam-se-abracados.pt to exercise these rights."
+    }
+  }
+}

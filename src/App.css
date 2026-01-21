@@ -1,0 +1,20 @@
+/* Modern input styling */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+  transition: all var(--transition-base);
+  border-radius: var(--radius-md);
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="date"]:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(12, 44, 85, 0.1);
+}
