@@ -1,40 +1,33 @@
-import { useTranslation } from 'react-i18next'
+import { useTranslation } from '../i18n/LanguageProvider'
 
-export function LanguageToggle() {
-  const { i18n, t } = useTranslation()
-
-  const currentLang = i18n.language
-
-  const handleLanguageChange = (lang: 'en' | 'pt-PT') => {
-    i18n.changeLanguage(lang)
-  }
+export default function LanguageToggle() {
+  const { lang, setLang } = useTranslation()
 
   return (
-    <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wide">
+    <div className="flex items-center gap-2">
       <button
-        onClick={() => handleLanguageChange('en')}
-        className={`px-2 py-1 rounded-[4px] transition-colors ${
-          currentLang === 'en'
-            ? 'bg-[var(--color-accent)] text-white'
-            : 'text-gray-700 hover:text-[var(--color-accent)]'
+        onClick={() => setLang('pt-PT')}
+        className={`px-3 py-1.5 text-xs font-medium rounded-md transition-all ${
+          lang === 'pt-PT'
+            ? 'text-purple-600 font-semibold'
+            : 'text-gray-700 hover:text-purple-600 hover:shadow-sm'
         }`}
-        aria-label={t('language.switchToEnglish')}
-        aria-pressed={currentLang === 'en'}
-      >
-        🇬🇧 EN
-      </button>
-      <span className="text-gray-300">|</span>
-      <button
-        onClick={() => handleLanguageChange('pt-PT')}
-        className={`px-2 py-1 rounded-[4px] transition-colors ${
-          currentLang === 'pt-PT'
-            ? 'bg-[var(--color-accent)] text-white'
-            : 'text-gray-700 hover:text-[var(--color-accent)]'
-        }`}
-        aria-label={t('language.switchToPortuguese')}
-        aria-pressed={currentLang === 'pt-PT'}
+        aria-pressed={lang === 'pt-PT'}
+        aria-label="Switch to Portuguese"
       >
         🇵🇹 PT
+      </button>
+      <button
+        onClick={() => setLang('en-GB')}
+        className={`px-3 py-1.5 text-xs font-medium rounded-md transition-all ${
+          lang === 'en-GB'
+            ? 'text-purple-600 font-semibold'
+            : 'text-gray-700 hover:text-purple-600 hover:shadow-sm'
+        }`}
+        aria-pressed={lang === 'en-GB'}
+        aria-label="Switch to English"
+      >
+        🇬🇧 EN
       </button>
     </div>
   )

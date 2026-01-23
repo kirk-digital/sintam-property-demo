@@ -1,87 +1,65 @@
 import { Link } from 'react-router-dom'
-import { useTranslation } from 'react-i18next'
+import { useTranslation } from '../i18n/LanguageProvider'
 
-const servicesConfig = [
-  { key: 'propertyManagement', path: '/services/property-management' },
-  { key: 'investmentConsulting', path: '/services/investment-consulting' },
-  { key: 'vehicleRental', path: '/services/vehicle-rental' },
-  { key: 'vehicleSourcing', path: '/services/vehicle-sourcing' },
-]
-
-const locations = ['Lisbon', 'Cascais', 'Sintra', 'Oeiras', 'Almada']
-
-export function Footer() {
+export default function Footer() {
   const { t } = useTranslation()
-
+  
   return (
-    <footer className="bg-[#0a0f1a] text-gray-400 border-t border-white/5 mt-20">
-      <div className="container-padded py-16 md:py-20 grid md:grid-cols-4 gap-12 md:gap-16">
-        <div className="space-y-5">
-          <h3 className="text-white font-semibold text-sm tracking-wider uppercase mb-2">{t('footer.services')}</h3>
-          <ul className="space-y-3 text-sm">
-            {servicesConfig.map((item) => (
-              <li key={item.path}>
-                <Link className="hover:text-white transition-colors duration-200" to={item.path}>
-                  {t(`nav.${item.key}`)}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
+    <footer className="bg-white border-t border-gray-200 mt-20">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {/* Contact */}
+          <div>
+            <h3 className="text-sm font-semibold text-gray-900 mb-4">{t('footer.contact')}</h3>
+            <div className="space-y-2 text-sm text-gray-600">
+              <p>Email: info@sintam-se-abracados.com</p>
+              <p>WhatsApp: +351 XXX XXX XXX</p>
+            </div>
+          </div>
 
-        <div className="space-y-5">
-          <h3 className="text-white font-semibold text-sm tracking-wider uppercase mb-2">{t('footer.locations')}</h3>
-          <ul className="space-y-3 text-sm">
-            {locations.map((loc) => (
-              <li key={loc} className="hover:text-white transition-colors duration-200">{loc}</li>
-            ))}
-          </ul>
-        </div>
+          {/* Company Info */}
+          <div>
+            <h3 className="text-sm font-semibold text-gray-900 mb-4">{t('footer.company')}</h3>
+            <div className="space-y-2 text-sm text-gray-600">
+              <p>Sintam-se Abraçados</p>
+              <p>Property Management Services</p>
+            </div>
+          </div>
 
-        <div className="space-y-5">
-          <h3 className="text-white font-semibold text-sm tracking-wider uppercase mb-2">{t('footer.company')}</h3>
-          <ul className="space-y-3 text-sm">
-            <li>
-              <Link to="/about" className="hover:text-white transition-colors duration-200">
-                {t('nav.about')}
+          {/* Legal */}
+          <div>
+            <h3 className="text-sm font-semibold text-gray-900 mb-4">{t('footer.legal')}</h3>
+            <div className="space-y-2">
+              <Link to="/privacy" className="block text-sm text-gray-600 hover:text-purple-600">
+                {t('footer.privacyPolicy')}
               </Link>
-            </li>
-            <li>
-              <Link to="/privacy" className="hover:text-white transition-colors duration-200">
-                {t('nav.privacy')}
+              <Link to="/cookies" className="block text-sm text-gray-600 hover:text-purple-600">
+                {t('footer.cookiePolicy')}
               </Link>
-            </li>
-            <li>
-              <Link to="/contact" className="hover:text-white transition-colors duration-200">
-                {t('nav.contact')}
+              <Link to="/terms" className="block text-sm text-gray-600 hover:text-purple-600">
+                {t('footer.termsOfService')}
               </Link>
-            </li>
-          </ul>
-        </div>
-
-        <div className="space-y-5">
-          <h3 className="text-white font-semibold text-sm tracking-wider uppercase mb-2">{t('footer.contact')}</h3>
-          <div className="text-sm space-y-3">
-            <p className="hover:text-white transition-colors duration-200">+351 900 000 000</p>
-            <p>
-              <a href="mailto:info@sintam-se-abracados.pt" className="hover:text-white transition-colors duration-200">
-                info@sintam-se-abracados.pt
-              </a>
-            </p>
-            <p>Lisbon, Portugal</p>
+              <Link to="/livro-reclamacoes" className="block text-sm text-gray-600 hover:text-purple-600">
+                {t('footer.complaintBook')}
+              </Link>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div className="container-padded py-8 border-t border-white/5">
-        <div className="text-sm text-gray-500 space-y-3">
-          <p className="text-gray-400 leading-relaxed">{t('footer.description')}</p>
-          <p className="text-xs text-gray-500">
-            {t('footer.copyright', { year: new Date().getFullYear() })}{' '}
-            <a href="https://kirkdaledigital.co.uk/" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-white transition-colors duration-200 underline underline-offset-2">
-              {t('footer.designedBy')}
+        <div className="mt-8 pt-8 border-t border-gray-200 text-center">
+          <p className="text-sm text-gray-600 mb-2">
+            &copy; {new Date().getFullYear()} Sintam-se Abraçados. {t('footer.copyright')}
+          </p>
+          <p className="text-xs text-slate-500">
+            Web Design by{' '}
+            <a
+              href="https://kirkdaledigital.co.uk"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-purple-600 hover:underline transition-colors"
+            >
+              Kirkdale Digital
             </a>
-            .
           </p>
         </div>
       </div>
