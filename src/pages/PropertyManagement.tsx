@@ -20,8 +20,8 @@ export default function PropertyManagement() {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <section className="py-16 md:py-24">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="min-h-[calc(100vh-80px)] md:min-h-[calc(100vh-96px)] flex items-center py-12 md:py-16">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 w-full">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left: Text */}
             <div>
@@ -50,7 +50,7 @@ export default function PropertyManagement() {
               <img
                 src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=80"
                 alt="Modern residential building"
-                className="w-full h-[400px] md:h-[500px] object-cover rounded-lg shadow-lg"
+                className="w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] object-cover rounded-lg shadow-lg"
               />
             </div>
           </div>
