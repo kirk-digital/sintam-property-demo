@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout'
 import PropertyManagement from './pages/PropertyManagement'
 import VehicleRentals from './pages/VehicleRentals'
+import VehicleSourcing from './pages/VehicleSourcing'
 import VehicleSourcingImport from './pages/VehicleSourcingImport'
 import VehicleSourcingExport from './pages/VehicleSourcingExport'
 import Contact from './pages/Contact'
@@ -16,6 +17,7 @@ function App() {
           <Route index element={<PropertyManagement />} />
           <Route path="property-management" element={<PropertyManagement />} />
           <Route path="vehicle-rentals" element={<VehicleRentals />} />
+          <Route path="vehicle-sourcing" element={<VehicleSourcing />} />
           <Route path="vehicle-sourcing/import" element={<VehicleSourcingImport />} />
           <Route path="vehicle-sourcing/export" element={<VehicleSourcingExport />} />
           <Route path="contact" element={<Contact />} />

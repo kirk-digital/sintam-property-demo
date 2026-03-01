@@ -22,24 +22,30 @@ export default function Footer() {
             <h3 className="text-sm font-semibold text-gray-900 mb-4">{t('footer.company')}</h3>
             <div className="space-y-2 text-sm text-gray-600">
               <p>Sintam-se Abraçados</p>
-              <p>Property Management Services</p>
+              <p>{t('footer.services')}</p>
             </div>
           </div>
 
-          {/* Legal */}
+          {/* Legal & other pages */}
           <div>
             <h3 className="text-sm font-semibold text-gray-900 mb-4">{t('footer.legal')}</h3>
             <div className="space-y-2">
-              <Link to="/privacy" className="block text-sm text-gray-600 hover:text-purple-600">
+              <Link to="/vehicle-rentals" className="block text-sm text-gray-600 hover:text-brand-primary">
+                {t('footer.vehicleRentals')}
+              </Link>
+              <Link to="/vehicle-sourcing" className="block text-sm text-gray-600 hover:text-brand-primary">
+                {t('footer.vehicleSourcing')}
+              </Link>
+              <Link to="/privacy" className="block text-sm text-gray-600 hover:text-brand-primary">
                 {t('footer.privacyPolicy')}
               </Link>
-              <Link to="/cookies" className="block text-sm text-gray-600 hover:text-purple-600">
+              <Link to="/cookies" className="block text-sm text-gray-600 hover:text-brand-primary">
                 {t('footer.cookiePolicy')}
               </Link>
-              <Link to="/terms" className="block text-sm text-gray-600 hover:text-purple-600">
+              <Link to="/terms" className="block text-sm text-gray-600 hover:text-brand-primary">
                 {t('footer.termsOfService')}
               </Link>
-              <Link to="/livro-reclamacoes" className="block text-sm text-gray-600 hover:text-purple-600">
+              <Link to="/livro-reclamacoes" className="block text-sm text-gray-600 hover:text-brand-primary">
                 {t('footer.complaintBook')}
               </Link>
             </div>
@@ -51,12 +57,12 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} Sintam-se Abraçados. {t('footer.copyright')}
           </p>
           <p className="text-xs text-slate-500">
-            Web Design by{' '}
+            {t('footer.webDesignBy')}{' '}
             <a
               href="https://kirkdaledigital.co.uk"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-purple-600 hover:underline transition-colors"
+              className="hover:text-brand-primary hover:underline transition-colors"
             >
               Kirkdale Digital
             </a>

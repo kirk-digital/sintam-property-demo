@@ -9,8 +9,8 @@ export default function LanguageToggle() {
         onClick={() => setLang('pt-PT')}
         className={`px-2 py-1.5 md:px-3 text-xs font-medium rounded-md transition-all min-h-[40px] ${
           lang === 'pt-PT'
-            ? 'text-purple-600 font-semibold'
-            : 'text-gray-700 hover:text-purple-600 hover:shadow-sm'
+            ? 'text-brand-primary font-semibold'
+            : 'text-gray-700 hover:text-brand-primary hover:shadow-sm'
         }`}
         role="tab"
         aria-selected={lang === 'pt-PT'}
@@ -22,8 +22,8 @@ export default function LanguageToggle() {
         onClick={() => setLang('en-GB')}
         className={`px-2 py-1.5 md:px-3 text-xs font-medium rounded-md transition-all min-h-[40px] ${
           lang === 'en-GB'
-            ? 'text-purple-600 font-semibold'
-            : 'text-gray-700 hover:text-purple-600 hover:shadow-sm'
+            ? 'text-brand-primary font-semibold'
+            : 'text-gray-700 hover:text-brand-primary hover:shadow-sm'
         }`}
         role="tab"
         aria-selected={lang === 'en-GB'}

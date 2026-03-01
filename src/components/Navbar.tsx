@@ -118,15 +118,15 @@ export default function Navbar() {
               to="/"
               className={`text-xs font-medium transition-colors ${
                 isActive('/property-management')
-                  ? 'text-purple-600'
-                  : 'text-gray-700 hover:text-purple-600'
+                  ? 'text-brand-primary'
+                  : 'text-gray-700 hover:text-brand-primary'
               }`}
             >
               {t('nav.propertyManagement')}
             </Link>
             <Link
               to="/vehicle-rentals"
-              className="text-xs font-medium text-gray-700 hover:text-purple-600 transition-colors"
+              className="text-xs font-medium text-gray-700 hover:text-brand-primary transition-colors"
             >
               {t('nav.vehicleRentals')}
             </Link>
@@ -139,7 +139,7 @@ export default function Navbar() {
               onMouseLeave={handleDropdownMouseLeave}
             >
               <button
-                className="text-xs font-medium text-gray-700 hover:text-purple-600 transition-colors flex items-center gap-1"
+                className="text-xs font-medium text-gray-700 hover:text-brand-primary transition-colors flex items-center gap-1"
                 onClick={() => setServicesDropdownOpen(!servicesDropdownOpen)}
                 onKeyDown={handleDropdownKeyDown}
                 onFocus={() => setServicesDropdownOpen(true)}
@@ -158,7 +158,7 @@ export default function Navbar() {
                 >
                   <Link
                     to="/vehicle-sourcing/import"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-purple-600 focus:bg-gray-50 focus:text-purple-600 focus:outline-none"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-brand-primary focus:bg-gray-50 focus:text-brand-primary focus:outline-none"
                     onClick={() => setServicesDropdownOpen(false)}
                     role="menuitem"
                   >
@@ -166,7 +166,7 @@ export default function Navbar() {
                   </Link>
                   <Link
                     to="/vehicle-sourcing/export"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-purple-600 focus:bg-gray-50 focus:text-purple-600 focus:outline-none"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-brand-primary focus:bg-gray-50 focus:text-brand-primary focus:outline-none"
                     onClick={() => setServicesDropdownOpen(false)}
                     role="menuitem"
                   >
@@ -178,7 +178,7 @@ export default function Navbar() {
 
             <Link
               to="/contact"
-              className="text-xs font-medium text-gray-700 hover:text-purple-600 transition-colors"
+              className="text-xs font-medium text-gray-700 hover:text-brand-primary transition-colors"
             >
               {t('nav.contactUs')}
             </Link>
@@ -215,14 +215,14 @@ export default function Navbar() {
           <div className="container mx-auto px-4 py-4 space-y-4">
             <Link
               to="/"
-              className="block text-sm font-medium text-gray-700 hover:text-purple-600"
+              className="block text-sm font-medium text-gray-700 hover:text-brand-primary"
               onClick={() => setMobileMenuOpen(false)}
             >
               {t('nav.propertyManagement')}
             </Link>
             <Link
               to="/vehicle-rentals"
-              className="block text-sm font-medium text-gray-700 hover:text-purple-600"
+              className="block text-sm font-medium text-gray-700 hover:text-brand-primary"
               onClick={() => setMobileMenuOpen(false)}
             >
               {t('nav.vehicleRentals')}
@@ -240,7 +240,7 @@ export default function Navbar() {
                 <div className="pl-4 space-y-2">
                   <Link
                     to="/vehicle-sourcing/import"
-                    className="block text-sm text-gray-600 hover:text-purple-600"
+                    className="block text-sm text-gray-600 hover:text-brand-primary"
                     onClick={() => {
                       setMobileServicesOpen(false)
                       setMobileMenuOpen(false)
@@ -250,7 +250,7 @@ export default function Navbar() {
                   </Link>
                   <Link
                     to="/vehicle-sourcing/export"
-                    className="block text-sm text-gray-600 hover:text-purple-600"
+                    className="block text-sm text-gray-600 hover:text-brand-primary"
                     onClick={() => {
                       setMobileServicesOpen(false)
                       setMobileMenuOpen(false)
@@ -263,7 +263,7 @@ export default function Navbar() {
             </div>
             <Link
               to="/contact"
-              className="block text-sm font-medium text-gray-700 hover:text-purple-600"
+              className="block text-sm font-medium text-gray-700 hover:text-brand-primary"
               onClick={() => setMobileMenuOpen(false)}
             >
               {t('nav.contactUs')}

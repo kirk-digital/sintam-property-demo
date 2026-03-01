@@ -34,7 +34,7 @@ export default function CookieBanner() {
             {t('cookieBanner.message')}{' '}
             <Link
               to="/cookies"
-              className="text-purple-600 hover:text-purple-700 underline font-medium"
+              className="text-brand-primary hover:text-brand-primary-dark underline font-medium"
             >
               {t('cookieBanner.learnMore')}
             </Link>

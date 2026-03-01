@@ -41,7 +41,7 @@ export default function MicroCTA({
             href={secondaryHref}
             target={secondaryHref.startsWith('http') ? '_blank' : undefined}
             rel={secondaryHref.startsWith('http') ? 'noopener noreferrer' : undefined}
-            className="text-sm text-purple-600 hover:text-purple-700 hover:underline transition-colors"
+            className="text-sm text-brand-primary hover:text-brand-primary-dark hover:underline transition-colors"
           >
             {t('common.whatsapp')}
           </a>
